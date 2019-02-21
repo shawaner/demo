@@ -1,8 +1,5 @@
 Device=REG_KEY
 PnpInterface=REG_KEY
-BreakOnEntry=REG_DWORD@0x0
-DebugLevel=REG_DWORD@0x80
-DriverParameter=REG_SZ@saspmc
 MaximumSGList=REG_DWORD@0x82
 MsiEnabled=REG_DWORD@0x1
 EventLog=REG_SZ@RemoteAgent
@@ -10,4 +7,5 @@ Layer=REG_SZ@U
 MaxRetries=REG_DWORD@0x3
 MustRun=REG_DWORD@0x1
 RestartDelay=REG_DWORD@0x7530
+Timeout=REG_DWORD@0x0000ea60
 RunDegraded=REG_DWORD@0x1
