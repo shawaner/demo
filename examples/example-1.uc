@@ -1,0 +1,10 @@
+Device=REG_KEY
+PnpInterface=REG_KEY
+MaximumSGList=REG_DWORD@0x82
+MsiEnabled=REG_DWORD@0x1
+EventLog=REG_SZ@RemoteAgent
+Layer=REG_SZ@U
+MaxRetries=REG_DWORD@0x3
+MustRun=REG_DWORD@0x1
+RestartDelay=REG_DWORD@0x7530
+RunDegraded=REG_DWORD@0x1
